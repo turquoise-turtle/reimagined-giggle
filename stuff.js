@@ -31,3 +31,9 @@ function kathackactivate () {
 	w.type = "text/javascript";
 	document.body.appendChild(v, w);
 }
+function kickassactivate () {
+	var x = document.createElement("script");
+	x.src = "https://gitcdn.xyz/repo/turquoise-turtle/reimagined-giggle/master/kickass.js";
+	x.type = "text/javascript";
+	document.body.appendChild(x);
+}
