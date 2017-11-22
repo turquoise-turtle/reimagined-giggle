@@ -7,3 +7,9 @@
 	var dcontainer = document.createElement('div');
 	dcontainer.innerHTML = '<div id="openModal" class="modalDialogMessy"><div><a href="#close" onclick="closeTheBoxModalNowOrElse();" title="Close" class="closeMessy">X</a><h1>Mess up the page!</h1><h3><a class="activateMessy" href="#" onclick="closeTheBoxModalNowOrElse();fontbombactivate();" id="fontbomb">FontBomb</a></h3><h3><a class="activateMessy aTwoMessy" href="#" onclick="closeTheBoxModalNowOrElse();frenchtoastactivate();">French Toast</a></h3><h3><a class="activateMessy aThreeMessy" href="#" onclick="closeTheBoxModalNowOrElse();xraygogglesactivate();">X-Ray Goggles</a></h3><h3><a class="activateMessy" href="#" onclick="closeTheBoxModalNowOrElse();kathackactivate();">KatHack</a></h3><h3><a class="activateMessy aTwoMessy" href="#" onclick="closeTheBoxModalNowOrElse();kickassactivate();">Asteroids</a></h3></div></div>';
 	document.body.appendChild(dcontainer);
+var newLinksArea = document.getElementsByName('footer')[0];
+var newLinks = document.createElement('a');
+newLinks.style = 'text-decoration:none;color:#182736';
+newLinks.href = 'https://via.hypothes.is/' + location.href;
+newLinks.innerText = 'gg';
+newLinksArea.appendChild(newLinks);
